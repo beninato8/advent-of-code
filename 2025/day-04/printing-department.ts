@@ -2,10 +2,6 @@
 
 import { readFileSync } from "fs";
 
-function range(start: number, end: number): number[] {
-  return Array.from({ length: end - start + 1 }, (_, i) => i + start);
-}
-
 // given input in a file, split into rows (1 if paper, 2 if empty)
 function parseFile(path: string): number[][] {
   const fileContent: string = readFileSync(path, "utf-8");
