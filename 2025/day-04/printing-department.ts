@@ -2,7 +2,7 @@
 
 import { readFileSync } from "fs";
 
-// given input in a file, split into rows (1 if paper, 2 if empty)
+// given input in a file, split into rows (1 if paper, 0 if empty)
 function parseFile(path: string): number[][] {
   const fileContent: string = readFileSync(path, "utf-8");
   const values = fileContent.split("\n").map((bank) => {
