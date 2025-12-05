@@ -1,4 +1,4 @@
-// find max joltage from battery banks
+// find rolls in grid
 
 import { readFileSync } from "fs";
 
