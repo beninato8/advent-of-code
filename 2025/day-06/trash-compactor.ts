@@ -57,8 +57,8 @@ function parseFilePart2(path: string): FileOutput {
   return [results, operations.reverse()];
 }
 
-// if part 1, we want count of fresh ingredients
-// if part 2, we want all possible fresh ingredients in range
+// if part 1, we want math operations
+// if part 2, we want math operations but we rotated 90 deg
 function getTotal(
   values: number[][],
   operations: string[],
