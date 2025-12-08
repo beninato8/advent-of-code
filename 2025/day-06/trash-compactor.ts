@@ -114,10 +114,10 @@ function main() {
   ];
 
   const tests: TestData[] = [
-    // ["example.txt", false, 4277556],
-    // ["input.txt", false, 4405895212738],
-    // ["example.txt", true, 3263827],
-    ["input.txt", true, undefined],
+    ["example.txt", false, 4277556],
+    ["input.txt", false, 4405895212738],
+    ["example.txt", true, 3263827],
+    ["input.txt", true, 7450962489289],
   ];
 
   for (const [path, isPart2, expected] of tests) {
